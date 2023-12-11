@@ -20,18 +20,25 @@ import java.util.List;
  * o para seguir la traza de ejecución.
  */
 
-
+/**
+ * Métodos de utilidad para archivos.
+ */
 public class FileUtils {
 
+    /**
+     * Obtiene toda la lista de trabajadores y las saca a un '.csv'.
+     * @param fileName
+     * @param workers
+     */
     public static void toCSV(String fileName, List<Worker> workers) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
-            for (Worker worker : workers) {
-                String dataLine = worker.getId() + "," +
-                        worker.getName() + "," +
-                        worker.getDni() + "," +
-                        worker.getFrom();
-                writer.write(dataLine);
-                writer.newLine();
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileName))) {
+            for (Worker trabajador : workers) {
+                String dataLine = trabajador.getId() + "," +
+                        trabajador.getName() + "," +
+                        trabajador.getDni() + "," +
+                        trabajador.getFrom();
+                bufferedWriter.write(dataLine);
+                bufferedWriter.newLine();
             }
 
         } catch (IOException e) {

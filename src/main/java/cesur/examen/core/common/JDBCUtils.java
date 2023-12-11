@@ -19,6 +19,10 @@ import java.util.logging.Logger;
  * En su lugar, usa log.info(), log.warning() y log.severe() para mostrar información interna
  * o para seguir la traza de ejecución.
  */
+
+/**
+ * Conexión a Base de Datos con JDBC.
+ */
 @Log
 public class JDBCUtils {
 

@@ -19,11 +19,26 @@ import java.util.List;
  * En su lugar, usa log.info(), log.warning() y log.severe() para mostrar información interna
  * o para seguir la traza de ejecución.
  */
+
+/**
+ * Implementa métodos que realizan operaciones con Bases de Datos con JDBC.
+ */
 @Log public class WorkerDAO implements DAO<Worker> {
 
     /* Please, use this constants for the queries */
+    /**
+     * Consulta para obtener todos los trabajadores ordenados por el campo 'desde.'
+     */
     private final String QUERY_ORDER_BY = "select * from trabajador order by desde";
+
+    /**
+     * Consulta para obtener los trabajadores por el DNI.
+     */
     private final String QUERY_BY_DNI = "Select * from trabajador where dni=?";
+
+    /**
+     * Consulta para actualizar trabajadores por el DNI.
+     */
     private final String UPDATE_BY_ID = "update trabajador set nombre = ?, dni = ?, desde = ? where id = ?";
 
 

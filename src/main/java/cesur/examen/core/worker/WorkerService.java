@@ -26,6 +26,9 @@ import java.util.Date;
  *  reused in application layer.
  */
 
+/**
+ * Métodos de servicio de Worker.
+ */
 @Log
 public class WorkerService {
     /*
@@ -33,6 +36,12 @@ public class WorkerService {
     Remember Date().
     Returns the new updated worker, null if fails or dni doesn't exist.
     */
+
+    /**
+     * Renueva la fecha de un Worker.
+     * @param dni
+     * @return El Worker actualizado.
+     */
     public static Worker renovateWorker(String dni){
         Worker out = null;
         /* Make implementation here ...  */
@@ -42,12 +51,9 @@ public class WorkerService {
 
         Date fecha = new Date();
 
-        java.sql.Date fechaActualizada = new java.sql.Date(fecha.getTime());
-
         trabajadorActualizar.setFrom( fecha );
 
-            // Perform the update in the database
-            out = workerDAO.update(trabajadorActualizar);
+        out = workerDAO.update(trabajadorActualizar);
 
         return out;
     }

@@ -1,24 +1,24 @@
 
-g	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾…›ÂÅ1
-g	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(ÑÓ ¡şÿÿÿÿ8¾…›ÂÅ1
-g	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾…›ÂÅ1
-h	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¿…›ÂÅ1
-k
-java:S2095|"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Û¯×h8Í…›ÂÅ1
+g	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾…›ÂÅ1
+g	java:S112c"FDefine and throw a dedicated exception instead of using a generic one.(ÑÓ ¡şÿÿÿÿ8¾…›ÂÅ1
+g	java:S112u"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾…›ÂÅ1
+h	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¿…›ÂÅ1
 q
-java:S20950"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æ¹Éöÿÿÿÿÿ8Û©ÕÃÅ1
-t	java:S116"YRename this field "QUERY_ORDER_BY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øİ²g8Î…›ÂÅ1
-s	java:S116"WRename this field "QUERY_BY_DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¤¯8Î…›ÂÅ1
-x	java:S116"WRename this field "UPDATE_BY_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¶ß¸şÿÿÿÿ8Î…›ÂÅ1
+java:S2095?"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æ¹Éöÿÿÿÿÿ8Û©ÕÃÅ1
+l
+java:S2095‹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Û¯×h8Í…›ÂÅ1
+t	java:S116 "YRename this field "QUERY_ORDER_BY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øİ²g8Î…›ÂÅ1
+s	java:S116%"WRename this field "QUERY_BY_DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¤¯8Î…›ÂÅ1
+x	java:S116*"WRename this field "UPDATE_BY_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¶ß¸şÿÿÿÿ8Î…›ÂÅ1
 =
-java:S1170"!Make this final field static too.(øİ²g8Î…›ÂÅ1
+java:S1170 "!Make this final field static too.(øİ²g8Î…›ÂÅ1
 >
-java:S1170"!Make this final field static too.(Ü¤¯8Î…›ÂÅ1
+java:S1170%"!Make this final field static too.(Ü¤¯8Î…›ÂÅ1
 C
-java:S1170"!Make this final field static too.(›¶ß¸şÿÿÿÿ8Ï…›ÂÅ1
+java:S1170*"!Make this final field static too.(›¶ß¸şÿÿÿÿ8Ï…›ÂÅ1
 Z
-java:S18549"8Remove this useless assignment to local variable "rows".(Ìû¨ùÿÿÿÿ8ˆ°ÂÅ1
+java:S1854H"8Remove this useless assignment to local variable "rows".(Ìû¨ùÿÿÿÿ8ˆ°ÂÅ1
 K
-java:S14819")Remove this unused "rows" local variable.(Ìû¨ùÿÿÿÿ8‹°ÂÅ1
+java:S1481H")Remove this unused "rows" local variable.(Ìû¨ùÿÿÿÿ8‹°ÂÅ1
 H
-java:S1168m"+Return an empty collection instead of null.(¥¹ï8Ù…›ÂÅ1
+java:S1168|"+Return an empty collection instead of null.(¥¹ï8Ù…›ÂÅ1
