@@ -1,0 +1,11 @@
+
+V
+java:S1118":Add a private constructor to hide the implicit public one.(‘A8¤ª¬ÃÅ1
+f
+java:S1854-"DRemove this useless assignment to local variable "fechaActualizada".(§•ÖŸùÿÿÿÿ8¼µèÃÅ1
+W
+java:S1481-"5Remove this unused "fechaActualizada" local variable.(§•ÖŸùÿÿÿÿ8½µèÃÅ1
+a
+java:S1128"?Remove this unused import 'cesur.examen.core.common.JDBCUtils'.(¾°èïøÿÿÿÿ8ÜšÍÃÅ1
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8Õ†ºÃÅ1
